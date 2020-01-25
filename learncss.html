@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!--Request for help
+1. Can I have both external & internal CSS references at the same time?
+2. What could be wrong with my CSS; I don't see the green & blue colours?
+3. The prettier extension isn't working for me; I highlight text to make 
+pretty and then click it in the bottom right to get no result! What is 
+the proper use of that extension
+-->
+
+
+<html>
+<head>
+<title>Page Title</title>
+<link rel=stylesheet href=“css/custom.css” type=“text/css”>
+<style>
+body {background-color: burlywood}
+p {font-size: 15px;}
+</style>
+</head>
+<body>
+
+<p>The Heading tag has only 6 levels:</p>
+
+<h1>This is Heading 1</h1>
+<h2 style=color: lawngreen;>This is Heading 2 with CSS style of green</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
+
+<p style=font-size:30px;>This is a paragraph with huge a font size.</p>
+<p>Use br tag for breaking a line. <br> This is line two of the same paragraph. </pr>
+<br><p>Image below.</p>
+<a href=“”><img src=script.jpg alt=“help” height=“50” width=“50”></a>
+
+<p class=firstclass>formatting 
+
+<p class=color: red>formatting inline color to red
+
+<p class=blueparagraphs>formatting internal color to blue using style in header
+
+<!-- This is a comment --> 
+<form action=“”>
+First name: 
+<input type=“text” name=“firstname”><br>
+Last name: <br>
+<input type=“text” name=“lastname”>
+Gender <br>
+MALE <input type=“radio” name=“MALE” value=“MALE”>
+FEMALE <input type=“radio” name=“FEMALE” value=“FEMALE”>
+OTHER <input type=“radio” name=“OTHER” value=“OTHER”>
+<button>SUBMIT</button>
+<button>RESET</button>
+</form>
+
+</body>
+</html>
